@@ -47,7 +47,7 @@ def enviarWhatsapp(nombre):
         .create(body=f'Gracias por participar en uno de nuestros fotomatones La Cabina Gris. \nEsta es el video que te has hecho. \n{texto}',
             media_url=[url],
             from_='whatsapp:+19282784108',
-            to='whatsapp:+34690849490'
+            to='whatsapp:+34637083057'
         )
     
 def grabarVideo(nombre):
@@ -67,5 +67,6 @@ def grabarVideo(nombre):
     
     
 if __name__ == "__main__":
-    grabarVideo("test")
+    grabarVideo("2023-03-30 100119")
+    
     
